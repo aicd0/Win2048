@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{83c68e1d-99dd-423a-85da-5bde58a86451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="project">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="project\paint">
+      <UniqueIdentifier>{38d812e4-6b31-4965-92e2-040ed18cae7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependence">
+      <UniqueIdentifier>{00332d56-9a28-4d1f-8f29-1cdfe2456996}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>project</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>project</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>project</Filter>
+    </ClInclude>
+    <ClInclude Include="Win2048.h">
+      <Filter>project</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\game.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="paint.h">
+      <Filter>project\paint</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\easing_animation.h">
+      <Filter>dependence</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Assets\Win2048.rc">
+      <Filter>resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\small.ico">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="Assets\Win2048.ico">
+      <Filter>resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Win2048.cpp">
+      <Filter>project</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\automation.h" />
+  </ItemGroup>
+</Project>
